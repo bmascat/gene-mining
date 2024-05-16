@@ -61,3 +61,9 @@ This subset of genes seems to be especially related to T-helper lymphocytes and 
 ## Getting Started
 
 To get started with this project, clone the repository and navigate to the `notebooks` directory to explore the data ingestion and analysis notebooks.
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+
+## License
+This project is licensed under the [GPL License](LICENSE).
