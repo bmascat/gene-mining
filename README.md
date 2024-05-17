@@ -13,7 +13,7 @@ This project focuses on data mining of genes related to various inflammatory dis
 - `C0010346_disease_gda_summary`: Genetic disease associations for the term Crohn's Disease (C0010346) extracted from disgenet database.
 - `Xenium_hColon_v1_metadata`: Genes contained in *Xenium Human Colon Gene Expression Panel*.
 - `colon_high_expression_HPA`: High expression genes in colon according to the Human protein Atlas (HPA).
-- `EFO_0003767_associations_export_IBD`: genes associated with IBD-related SNPs (EFO_0003767) in GWAS catalogue.
+- `EFO_0003767_associations_export_IBD`: genes associated with IBD-related SNPs (EFO_0003767) in GWAS catalog.
 
 ## Notebooks
 
