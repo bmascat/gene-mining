@@ -1,6 +1,6 @@
 ## Project Overview
 
-This project focuses on data mining of genes related to various inflammatory diseases using multiple databases. The main objective is to identify genes associated with different pathologies, determine the overlap between these genes across databases, and perform an overrepresentation analysis using cell and tissue type markers from the Human Cell Atlas to prioritise genes and cell types.
+This project focuses on data mining of genes related to various inflammatory bowel diseases using multiple databases. The main objective is to identify genes associated with different pathologies, determine the overlap between these genes across databases, and perform an overrepresentation analysis using cell and tissue type markers from the Human Cell Atlas to prioritise genes and cell types.
 
 ## Structure
 
