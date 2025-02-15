@@ -23,7 +23,7 @@ The `notebooks` directory contains Jupyter notebooks for data ingestion from var
 - `IBD_disgenetAPI_review:` Analysis using [Disgenet API](https://www.disgenet.org/). Cross-reference data with HPA and GWAS catalog to obtain the common subset. Observe overlap with the genes contained in the panel and perform enrichment analysis.
 - `IBD_geneshotAPI_review:` Analysis using [Geneshot API](https://maayanlab.cloud/geneshot/api.html) from Maayan Lab. Genes related to the disease, extracted from the pubmed literature.
 - `IBD_overlap:` Overlap analysis on the data extracted from HPA with Xenium colon panel.
-
+- `IBD_single_cell:` Analysis of the single cell data from sigmoid colon to check IBD genes expression in different cell types.
 ### Data Extraction and Analysis workflow
 
 1. **Data Ingestion**:
@@ -38,6 +38,9 @@ The `notebooks` directory contains Jupyter notebooks for data ingestion from var
 3. **Overrepresentation Analysis**:
    - Perform overrepresentation analysis using different datasets and databases of cell type and tissue expression markers:
    *Human_Gene_Atlas, Tabula_Sapiens, PanglaoDB_Augmented_2021, CellMarker_Augmented_2021, ARCHS4_Tissues*
+
+4. **Single Cell Analysis**:
+   - Perform single cell analysis of the sigmoid colon data to check IBD genes expression in different cell types using the *Seurat* package and *CuratedAtlasQueryR* package.
 
 ## Results
 
@@ -56,6 +59,14 @@ Of these 75 genes, NOD2 is by far the most studied in the literature.
 This subset of genes seems to be especially related to T-helper lymphocytes and monocytes. These cell types are mostly present in the blood, so it makes sense that the main tissue involved is the peripheral blood over different parts of the gut.
 
 ![enrichment_common_genes](./figures/Enrichment_75_common_IBD_genes.png)
+
+This make sense with the fact that most of these genes are underexpressed in resident cells of the sigmoid colon.
+
+![heatmap_sig_colon](./figures/heatmap_Sigmoidal_colon_IBD_genes_cell_type.png)
+
+Specially the most relevant genes in the literature appears to be not present in the sigmoid colon.
+
+![umap_sig_colon_top_10_IBD_genes](./figures/UMAP_Sigmoidal_colon_top_10_IBD_genes.png)
 
 
 ## Getting Started
